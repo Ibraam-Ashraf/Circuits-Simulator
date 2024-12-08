@@ -12,7 +12,7 @@ This README provides an overview of the **CircuitSolver** project, including ins
 - [Contact](#contact)
 
 ## Project Overview
-**CircuitSolver** is a Python-based tool for solving electrical circuits using **Modified Nodal Analysis (MNA)**. The program reads circuit definitions from a file, constructs the MNA matrix, and computes node voltages.
+**CircuitSolver** is a Python-based tool for solving electrical circuits using **Nodal Analysis**. The program reads circuit definitions from a file, constructs the MNA matrix, and computes node voltages.
 
 ## Features
 - **Reads Circuit Definitions**: Supports resistors, current sources, and voltage sources.
