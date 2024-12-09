@@ -1,29 +1,26 @@
-# CircuitSolver
+# Circuit Solver
 
-This README provides an overview of the **CircuitSolver** project, including installation instructions, usage examples, and contribution guidelines.
+## Overview
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+This project is a Python-based **Circuit Solver** that analyzes electrical circuits using **Modified Nodal Analysis (MNA)**. It reads a circuit description from a file, builds the MNA matrix, and computes the node voltages and branch currents in the circuit.
 
-## Project Overview
-**CircuitSolver** is a Python-based tool for solving DC electrical circuits using **Modified Nodal Analysis (MNA)**. The program reads circuit definitions from a file, constructs the MNA matrix, and computes node voltages.
+---
 
 ## Features
-- **Reads Circuit Definitions**: Supports resistors, current sources, and voltage sources.
-- **MNA Matrix Construction**: Automatically builds the Modified Nodal Analysis matrix from the circuit data.
-- **Voltage Calculation**: Solves for node voltages in the circuit using NumPy's linear algebra capabilities.
-- **Ground Node Handling**: Automatically accounts for a designated ground node.
 
-## Installation
-To run CircuitSolver, ensure you have **Python 3** installed along with the necessary dependencies. Follow these steps to set up the project:
+- Reads circuit data from a text file.
+- Supports resistors, voltage sources, and current sources.
+- Constructs the Modified Nodal Analysis (MNA) matrix.
+- Solves the circuit equations using `numpy.linalg.solve`.
+- Outputs node voltages and matrix details.
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/username/CircuitSolver.git
-   cd CircuitSolver
+---
+
+## Requirements
+
+- Python 3.6+
+- `numpy` library
+
+Install the required dependency using:
+```bash
+pip install numpy
